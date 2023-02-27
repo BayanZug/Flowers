@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="description" content="A site to buy decorative roses in different and new forms"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rose Shop</title>
+    <!-- link icon Logo -->
+    <link rel="icon"  href="img/3800024.png"/>
+    <!-- link Font Asone -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- link Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
+    <!-- link css -->
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <!-- start nav -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <img src="https://cdn.pixabay.com/photo/2020/09/01/18/13/background-5535928_960_720.png" alt="logo" width="100px">
+            <h3><span>Rose</span><sub>Shop</sub></h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallary">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Footer</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end nav -->
+    <!-- start slider -->
+    <section class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://static-cse.canva.com/blob/573253/10experttipsfordesigningwithablurredbackgroundfeaturedimage.jpg" class="d-block w-100" alt="img" >
+              </div>
+              <div class="carousel-item">
+                <img src="https://wallpaperaccess.com/full/371547.jpg" class="d-block w-100" alt="img" >
+              </div>
+              <div class="carousel-item">
+                <img src="https://cutewallpaper.org/22/pink-flowers-aesthetic-desktop-wallpapers/1855822613.jpg" class="d-block w-100" alt="img" >
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- end slider -->
+    <!-- start about -->
+    <section id="about">
+        <div class="header">
+            <h1> About Us</h1>
+        </div>
+        <div class="boody">
+            <div class="container">
+                <div class="row">
+                    <div class="box col-xl-4 col-lg-4 col-sm-12">
+                        <img src="img/7b74c914e4ef2c0951024d77e5565c98.png" alt="logo" width="100%">
+                    </div>
+                    <div class="box1 col-xl-8 col-lg-8 col-sm-12">
+                        <div class="our">
+                            <h2>Our Mission</h2>
+                            <p>
+                                Providing all our customers with the most beautiful
+                                forms of roses at any time and any place,
+                                 and this is for the confidence of the customer
+                            </p>
+                        </div>
+                        <div class="our">
+                            <h2>Our thoughts</h2>
+                            <p>
+                                We understand the unique power of flowers to express a sentiment and help people
+                                across the world “Say it with flowers.
+                            </p>
+                        </div>
+                        <div class="our">
+                            <h2>Our Goals</h2>
+                            <p>
+                                When you’re giving with us,
+                                you’re giving the gift of joy, strength, and love and you're giving it with meaning
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- start gallary -->
+    <section id="gallary">
+        <div class="header">
+            <h1>Our Gallary</h1>
+        </div>
+        <div class="container">
+            <div class="navss">
+                <ul class="nav nav-tabs " id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Products A</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Products B</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Products C</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="contaner">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://www.flowerbx.com/media/catalog/product/cache/466bc07fdd9f3406dd5cbfa6621097e2/r/o/rose_red_naomi_rose_vase50_6.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://asset1.cxnmarksandspencer.com/is/image/mands/Flower-Vase-Arrangement-1/HT_FD_F14A_00962391_NC_X_EC_0?$PDP_IMAGEGRID_1_LG$" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/504_2120DS_LOL_preset_proflowers-mx-hero-lv-new.jpeg?v=1632916245" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://fleurtationsflowers.com/wp-content/uploads/2017/07/V-Beautiful-Rose-Vase.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://www.jackiesflorist.ie/Image.aspx?websiteid=717&filename=product/1867676095large.jpg&newheight=384&newWidth=384&ver=0&cache=1" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlnQYwmCIrk52JUIBw1LtxPEswBqGZLA1CeYSuEdaj5uc_gaLx1KokpNrGRGxKKX6m48&usqp=CAUg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://i.pinimg.com/originals/07/f4/68/07f468331bf704b3d3eebcbcca55d469.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product3.html">
+                                            <img width="100%" src="https://www.sandrasflorist.co.uk/upload/mt/sf116/products/lg_20124000-luxury-white-oriental-lily-vase.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="contaner">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product2.html">
+                                            <img width="100%" src="img/d4810359a117a09a20f95edbb209dbf8.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="contaner">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://www.willowandbloomsflowersnewbury.co.uk/wp-content/uploads/2019/03/IMG_3824-copy.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://d2j6dbq0eux0bg.cloudfront.net/images/13776853/1468685337.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://violet.lv/840-large_default/bloom-box-eustoma.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://www.flowershoplaziva.me/wp-content/uploads/2020/12/100e-6-scaled.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://violet.lv/583-large_default/flower-box-for-princess.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://violet.lv/348-large_default/flower-box-fantasy-forest.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://violet.lv/606-large_default/flower-box-with-flower-composition.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="imgs">
+                                        <a href="product.html">
+                                            <img width="100%" src="https://violet.lv/886-large_default/flower-box-1.jpg" alt="products">
+                                            <div class="banner">
+                                                <h4>decorative roses</h4>
+                                                <button>20$</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end gallary -->
+    <!-- start contact -->
+    <section id="contact">
+        <div class="header">
+            <h1> Contact Us</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <h4>Order Now</h4>
+                    <div class="form">
+                        <form id="form" action="/"  >
+                            <div class="form-group">
+                                <label for="name">Your Name :</label>
+                                <input id="name" name="name" class="form-control" type="text" placeholder="Your Full Name" required>
+                                <div class="error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Your Phone :</label>
+                                <input id="phone" name="phone" class="form-control" type="tel" placeholder="Your Phone" required>
+                                <div class="error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="product">Product Id :</label>
+                                <input id="product" name="product" class="form-control" type="text" placeholder="Product" required>
+                                <div class="error"></div>
+                            </div>
+                            <button type="submit">Buy Now</button>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="imags">
+                        <img src="img/googlemap.jpg" width="100%" alt="map">
+                        <br/>
+
+                        <a href="https://goo.gl/maps/bi6DvRHUnX81jiCz8">Google maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+    <!-- start footer -->
+    <footer id="footer">
+        <div class="header-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h4>A B O U T</h4>
+                        <p>
+                            Providing all our customers with the most beautiful
+                            forms of roses at any time and any place,
+                             and this is for the confidence of the customer
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4>CATEGORIES</h4>
+                        <ul>
+                            <li><a href="#"></a>decorative roses</li>
+                            <li><a href="#"></a>decorative roses</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h4>QUICK LINKS</h4>
+                        <ul>
+                            <li><a href="#about"></a>About Us</li>
+                            <li><a href="#contact"></a>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="body-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-12">
+                        <p>"Copyright © 2021 All Rights Reserved by Scanfcode."</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/?hl=en">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- link Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <!-- link Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
